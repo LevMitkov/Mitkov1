@@ -6,3 +6,5 @@ try:
         print((a%10) * 100 + (a%100//10) * 10 + (a//100))
 except:
     print("Ошибка")
+
+    print('Hello world')
