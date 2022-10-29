@@ -4,6 +4,7 @@
 #значением константы e = exp(1).
 
 n = int(input())
-i = int(input())
-while i < n:
-    print(1, (1/n) * i)
+s = 0.0
+for i in range(1, n + 1):
+    s += 1.0 / i
+print(s)
