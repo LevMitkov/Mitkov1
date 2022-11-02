@@ -1,9 +1,9 @@
 try:
     a = int(input())
     b = int(input())
-    a>b
+    a > b
     while (a >= b):
         a -= b
     print(a)
 except:
-    print('Введите положительные значения')
+    print('Ошибка')
